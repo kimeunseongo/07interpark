@@ -1,0 +1,772 @@
+@charset"UTF-8";
+
+
+
+
+/*서브 첫 섹션 시작*/
+
+#sub_section{width: 100%; height: 720px; background-color:#B4DCB9;  margin: 0px auto;}
+
+#top_section{width: 1873px; height: 720px;  ;position: relative; margin: 0px auto;}
+
+
+
+#sub_topmenu{width: 1140px; height:45px ;  border-bottom: 1px solid #ddd; margin: 0px auto; }
+
+#sub_topmenu>ul:hover{cursor: pointer;}
+
+#sub_topmenu>ul>li{float: left; margin: 12px 0 0 8px; color: gray; 
+	font-size: 14px;}
+
+/*서브 백그라운드섹션 */
+
+#sub_backg{ width:1717px ; height:670px ;
+	background-image: url("../img/d.jpg");  background-repeat: no-repeat;  margin: 0px auto;}
+
+/*서브 백그라운드섹션 제목*/
+
+
+#sub_name{width: 1140px; height: 110px;  margin: 5px auto; display: flex; justify-content: space-between; border-bottom: 2px solid #eee; }
+
+#sub_name1{  display: flex; flex-wrap: wrap; align-items: center;}
+
+#sub_name1>h3{font-size: 25px; margin: 25px 0 0 10px;}
+
+#sub_name1>h3>span{font-size: 20px; font-weight: normal; margin: 0 0 0 5px;}
+
+
+#sub_name1>p{width: 100%;  margin: 0px 0 0 10px; font-weight: bold; color: gray;}
+
+#sub_name2{ display: flex; align-items: center;}
+
+#sub_name2>span{color: orange;}
+
+#sub_name2>h3{font-weight: normal;}
+
+#sub_name2>h4{color: gray;}
+
+#sub_name2>h4:hover{cursor: pointer;}
+
+/*서브 백그라운드섹션 책소개*/
+
+
+
+#sub_bookbox{width: 1140px; height: 550px; background-color: #fff; margin: -5px auto; display: flex; }
+
+/*서브 백그라운드섹션 왼쪽박스 */
+
+#sub_bookimg{width: 250px; height: 550px; 
+	margin: 0px ; }
+
+
+
+	.subm>img{width:220px ; height: 300px; margin: 20px 0 0 15px;  box-shadow: 4px 4px 4px gray;}
+
+	#s_book_btn{width: 230px; height: 40px;  border-top: 1px solid #c8c8c8; border-left: 1px solid #c8c8c8;  border-bottom: 1px solid #c8c8c8;display: flex; margin: 15px auto;}
+
+	#s_book_btn:hover{cursor: pointer;}
+
+	.sbook1{width: 50%; height: 38px; border-right: 1px solid #c8c8c8; display: flex; justify-content: center; align-items: center;}
+
+
+	#sub_bookimg>h4{width: 250px; height: 40px;  background-color: #f7f7f7; display: flex; justify-content: center; align-items: center; font-weight: normal; color: gray; font-size: 14px;}
+
+	#sub_bookimg>h4>span{color:#ef544d ; margin: 0 0 0 5px;}
+
+
+	#sub_bookimg>p{width: 250px; height: 40px;  background-color: #f7f7f7; display: flex; justify-content: center; align-items: center; font-weight: normal; color: gray; margin: 10px auto; font-size: 14px;}
+
+	#sub_bookimg>p>img{margin: 0 0 0 5px;}
+
+	#sub_bookimg>p>img:hover{cursor: pointer;}
+
+
+/*서브 백그라운드섹션 오른쪽박스  저자 등등 박스*/
+
+#sub_book{width: 880px; height: 550px; }
+
+#book_boxname{width: 100%; height: 60px; display: flex;align-items: center; border-bottom: 1px solid gray;}
+
+#book_boxname>ul{margin: 0 0 0 5px;}
+
+#book_boxname>ul>li{float: left; color: gray; margin: 0 0 0 2px; font-size: 14px;}
+
+#book_boxname>ul>li:nth-child(1){color: black;}
+#book_boxname>ul>li:nth-child(4){color: black;}
+#book_boxname>ul>li:nth-child(7){color: black;}
+#book_boxname>ul>li:nth-child(10){color: black;}
+#book_boxname>ul>li:nth-child(12){color: black;}
+#book_boxname>ul>li:nth-child(14){color: black;}
+
+
+/*서브 백그라운드섹션 오른쪽박스 판매가 등등 박스 */
+
+
+
+#book_table>table{ margin:15px 0 0 15px ;}
+
+table tr { height: 30px;}
+
+table tr th {color: #444;font-size: 12px; text-align: center;width: 30px;}
+
+table tr td {color: #444;font-size: 12px;width: 50px;}
+
+/*새책*/
+
+.bubble{width: 200px; height: 90px; border: 2px solid #ef544d; border-radius: 10px;  margin: 10px 0 10px 20px; position: relative;}
+
+.bubble::before {content:""; position: absolute; left:35%; transform: translate(-50%); bottom:-11px; border-width: 5px; border-style:solid; border-color:#ef544d transparent transparent transparent;}
+
+.bubble>h4{color: #444; font-size:13px ; margin: 10px 0 0 10px;}
+
+.bubble>h3{color: #ef544d; margin: 3px 0 0 10px;}
+
+.bubble>h3>span{font-weight: normal; font-size: 12px; color:#444;  ;}
+
+.bubble>p{font-size: 12px; color:#444 ; margin: 3px 0 0 10px;}
+
+/*여기까지 새책*/
+
+.linebar{margin: 0px 10px;}
+
+.saleline>p{display: inline;}
+
+.pointline>p{display: inline;}
+
+.pointline>h4{display: inline;}
+
+.plusline{ height: 48px; }
+
+.plusline>img{margin: 5px 0 0 0px;}
+
+.plusline>img:hover{cursor: pointer;}
+
+.sub_coupon4:hover{cursor: pointer;}
+
+.deliveryline{height: 40px;}
+
+.deliveryline>p{display: inline;}
+
+
+.deliveryline>img{margin: -3px 3px;}
+
+.orderline{height: 45px;}
+
+
+
+.tb_btn>div{display: flex; justify-content: flex-start;}
+
+table tr td button{width:135px; height: 40px; margin: 0px 5px; }
+
+table tr td button:hover{cursor: pointer;}
+
+table tr td button:nth-child(1){background-color: #777777; border: none; color: #fff; font-weight: bold;}
+
+table tr td button:nth-child(2){background-color: #ef544d; border: none;color: #fff;font-weight: bold;}
+table tr td button:nth-child(3){background-color: #fff; border: 1px solid gray; font-weight: bold; color: gray;}
+
+
+
+/*서브 섹션2 큰박스*/
+
+
+#sub_center{width: 100%; height: auto;  margin: 0px auto; }
+
+#sub_section2{width: 1140px; height: auto;  margin: 40px auto;}
+
+
+/*서브 섹션2 -> 책정보 메뉴들*/
+
+#sec2menu{width: 1140px; height:45px ;  margin: 0px auto;}
+
+#sec2menu>ul{font-size: 14px; font-weight: bold;}
+
+#sec2menu>ul>li{float: left; border: 1px solid #ddd; width: 20%; height: 45px; display: flex;
+ align-items: center; justify-content: center;}
+
+#sec2menu>ul>li>a{text-decoration: none; color: #333;}
+
+#sec2menu>ul>li:hover{background-color:#999999 ; color: white; cursor: pointer;}
+ 
+
+
+
+
+
+
+
+
+/*이상품의 분류*/
+
+#sub_line1{width:1140px ; height:95px ;   margin: 20px 0 0 0px;}
+
+.line_name{width: 1140px; height: 30px; border-bottom: 1px solid black;  display: flex; align-items: center;}
+
+.line_name>h3{margin: 0 0 0 15px;}
+
+.line_mini2{width: 1140px; height: 30px; }
+
+.line_mini2>ul{font-size:10px; margin: 0 0 0 20px; color: #666666;}
+
+
+.line_mini2>ul>li{float: left; margin: 8px 0 0 10px;}
+
+.line_mini2>ul>li:first-child{ list-style: square;}
+
+.line_mini2>ul>li:nth-child(9){color: #666666; font-weight: bold;}
+
+.line_mini2>ul>li:hover{cursor: pointer; text-decoration: underline;}
+
+
+
+/*라이브북*/
+
+#sub_line2{width:1140px ; height:400px ;   margin: 20px 0 0 0px; display: flex; flex-wrap: wrap;
+ justify-content: center; position: relative;}
+
+
+.line_name{width: 1140px; height: 30px;  border-bottom: 1px solid black;  display: flex; align-items: center;}
+
+.line_name>h3{margin: 0 0 0 15px;}
+
+
+
+.live{width: 365px; height: 318px; background-color: red;  position: relative; overflow: hidden;}
+
+#sub_line2>.prev { position: absolute; top: 53%; left: 30%;  }
+
+#sub_line2>.next { position: absolute; top: 53%; right: 30%;}
+
+
+#sub_line2>  span { display: block; font-size: 38px; color:#c9c9c9; line-height:10px; 
+	cursor: pointer; height: 50px; transform: translateY(-50%);  }
+
+	#sub_line2> span:hover { color:red;}
+
+	.live>ul{width: 4000px; height: 340px; }
+
+	.live>ul>li{float: left; }
+
+
+
+
+	/*책소개부터 본문중에서 목록 */
+
+	#sub_line3{width: 1140px; height: auto; }
+
+
+	/*책소개1*/
+
+	.intro_name{width: 1140px; height: 30px;  border-bottom: 1px solid black;  display: flex; align-items: center; margin: 0px 0px 10px 0px;}
+
+	.intro_name>h3{margin: 0 0 0 15px;}
+
+
+	#introduce{width: 1105px; height: auto; margin: 0px auto; text-align: justify;}
+
+
+	#introduce>p{margin: 0px 0 0 0px; font-size: 12px; color: #666666; line-height: 20px; display: inline;}
+
+	.spread{ font-size: 12px; color: #666666;  margin: 5px 0 0  1055px;}
+
+	.text_spread1>i{color: #ef544d; font-size: 10px;}
+
+	.text_spread1:hover{cursor: pointer;}
+
+	.text_spread1:nth-child(2){display: none;}
+
+	#intro_hide{width: 1105px; margin: 0px auto; font-size: 12px; color: #666666; line-height: 20px;display: none; text-align: justify;}
+
+
+
+
+
+/*출판사 서평2*/
+
+#publisher{width: 1105px; height: auto; margin: 0px auto; text-align: justify;}
+
+
+#publisher>p{margin: 0px 0 0 10px; font-size: 12px; color: #666666; line-height: 20px; display: inline;}
+
+.spread{ font-size: 12px; color: #666666; margin: 5px 0 0  1055px;}
+
+.text_spread2>i{color: #ef544d; font-size: 10px;}
+
+.text_spread2:hover{cursor: pointer;}
+
+.text_spread2:nth-child(2){display: none;}
+
+#pub_hide{width: 1105px; margin: 0px auto; font-size: 12px; color: #666666; line-height: 20px; display: none; text-align: justify;}
+
+
+
+
+/*추천사3*/
+
+#goodline{width: 1105px; height: auto;  margin: 0px auto; text-align: justify;}
+
+
+#goodline>p{margin: 0px 0 0 0px; font-size: 12px; color: #666666; line-height: 20px; display: inline;text-align:}
+
+.spread{ font-size: 12px; color: #666666; margin: 5px 0 0  1055px;}
+
+.text_spread3>i{color: #ef544d; font-size: 10px;}
+
+.text_spread3:hover{cursor: pointer;}
+
+.text_spread3:nth-child(2){display: none;}
+
+#goodline_hide{width: 1105px; margin: 0px auto; font-size: 12px; color: #666666; line-height: 20px; display: none; text-align: justify;}
+
+
+
+
+/*목차4*/
+
+#chapter{width: 1105px; height: auto;  margin: 0px auto; text-align: justify;}
+
+
+#chapter>p{margin: 0px 0 0 0px; font-size: 12px; color: #666666; line-height: 20px; display: inline;text-align:}
+
+.spread{ font-size: 12px; color: #666666; margin: 5px 0 0  1055px;}
+
+.text_spread4>i{color: #ef544d; font-size: 10px;}
+
+.text_spread4:hover{cursor: pointer;}
+
+.text_spread4:nth-child(2){display: none;}
+
+#chapter_hide{width: 1105px; margin: 0px auto; font-size: 12px; color: #666666; line-height: 20px;display: none; text-align: justify;}
+
+
+
+
+
+/*본문중에서5*/
+
+#core{width: 1105px; height: auto; margin: 0px auto; text-align: justify;}
+
+#core>p{margin: 0px 0 0 0px; font-size: 12px; color: #666666; line-height: 20px; display: inline;text-align:}
+
+.spread{ font-size: 12px; color: #666666; margin: 5px 0 0 1055px;}
+
+.text_spread5>i{color: #ef544d; font-size: 10px;}
+
+.text_spread5:hover{cursor: pointer;}
+
+.text_spread5:nth-child(2){display: none;}
+
+#core_hide{width: 1105px; margin: 0px auto; font-size: 12px; color: #666666; line-height: 20px; display: none; text-align: justify;}
+
+
+/*저자소개*/
+
+
+#author{width: 1140px; height: 1100px; }
+
+.line_name{width: 1140px; height: 30px; border-bottom: 1px solid black;  display: flex; align-items: center;}
+
+.line_name>h3{margin: 0 0 0 15px;}
+
+
+.author_mini{width: 1140px; height: 800px;   justify-content: space-between; margin: 20px 0 10px 0px; border-top: 1px solid #ddd ; border-bottom: 1px solid #eee;}
+
+
+
+#a_name{width: 1138px; height: 40px; background-color: #f7f7f7; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center;}
+
+#a_name>h4{ color: #444; margin: 0px 0 0 10px;}
+
+#a_name>span{font-size: 12px; color: #777;}
+
+#a_name>span:hover{cursor: pointer;}
+
+#a_name>span>i{font-size: 10px; color: #777; font-weight: bold;}
+
+.author_mini{width: 1140px; height: 130px;
+}
+
+.author_mini>p{font-size: 13px; color: #6; margin: 10px 10px; line-height: 25px;}
+
+.author_book{width: 1140px; height: 360px;  border: 1px solid #eee;}
+
+.author_b1{width: 1140px; height: 305px;  margin: 10x auto;}
+
+
+.author_b1>ul{margin: 0 0 0 15px;}
+
+.author_b1>ul>li{width:140px ; height:280px ;  float: left;margin: 20px 0 0 38px;}
+
+.author_b1>ul>li:hover{cursor: pointer;}
+
+.author_b1>ul>li>img{width: 140px;}
+
+.author_b1>ul>li>p{color: #666; font-size: 10px; font-weight: bold; text-align: center; height: 15px;margin: 3px auto;}
+
+.author_b1>ul>li>p>a{text-decoration: none; color: #666; }
+
+.author_b1>ul>li>h5{ text-align: center;  height: 20px; color:#ef544d ;}
+
+
+
+
+.author_b2{width: 1140px; height: 305px;  margin: 10x auto;}
+
+
+.author_b2>ul{margin: 0 0 0 15px;}
+
+.author_b2>ul>li{width:140px ; height:280px ;   float: left;margin: 20px 0 0 38px;}
+
+.author_b2>ul>li:hover{cursor: pointer;}
+
+.author_b2>ul>li>img{width: 140px;}
+
+.author_b2>ul>li>p{color: #666; font-size: 10px; font-weight: bold; text-align: center; height: 15px;margin: 3px auto;}
+
+.author_b2>ul>li>p>a{text-decoration: none; color: #666; }
+
+.author_b2>ul>li>h5{ text-align: center;  height: 20px; color:#ef544d ;}
+
+
+
+/*상품 정보 제공 고시*/
+
+#notice{width: 1140px; height: 370px; }
+
+
+
+#notice table{border: 1px solid green;margin: 10px 0 0 0px;width:1140px ; height: 300px; border: 1px solid #eee; }
+
+#notice table tr td:nth-child(1){background-color: #f7f7f7; font-size:12px ; color: #666666; padding: 0 0 0 20px; width: 25%;}
+
+#notice table tr td:nth-child(2){background-color: #fff; font-size:12px ; color: #666666; padding: 0 0 0 15px;  width: 25%;}
+
+#notice table tr td:nth-child(3){background-color: #f7f7f7; font-size:12px ; color: #666666; padding: 0 0 0 20px;width: 25%;}
+
+#notice table tr td:nth-child(4){background-color: #fff; font-size:12px ; color: #666666; padding: 0 0 0 15px;width: 25%;}
+
+
+
+
+/*이벤트 기획전*/
+
+
+#event{width: 1140px; height: 140px;  display: flex; flex-wrap: wrap; justify-content: center; align-items: center; ;}
+
+
+
+
+
+
+
+/*소설 분야에서 많은 회원이 구매한 책*/
+
+
+
+#novel{width: 1140px; height: 890px;  margin: 15px auto;}
+
+
+.novel_name1{width: 1140px; height: 30px;  border-bottom: 1px solid #eee;  display: flex; align-items: center;}
+
+.novel_name1>p{margin: 0 0 0 5px; color: #555; font-weight: bold;}
+
+.novel_name1>i{margin: 2px 0 0 10px;}
+
+
+
+
+.novel_wrap1{width: 1140px; height: 250px;  position: relative; overflow: hidden;}
+
+
+.novel_wrap1>.novel_prev1 { position: absolute; top: 50%; left: 0%;  }
+
+.novel_wrap1>.novel_next1 { position: absolute; top: 50%; right: 0%;}
+
+
+.novel_wrap1>  span { display: block; font-size: 38px; color:#c9c9c9; line-height:10px; 
+	cursor: pointer; height: 50px; transform: translateY(-50%);  }
+
+	.novel_wrap1> span:hover { color:red;}
+
+	.novel_slide1>ul{width:2200px ;}
+
+	.novel_slide1>ul>li{width:120px ; height:226px ;  float: left;margin: 20px 0 0 38px;}
+
+	.novel_slide1>ul>li>p{color: #666; font-size: 10px; font-weight: bold; text-align: center;}
+
+
+
+	.novel_wrap1>.novel_prev2 { position: absolute; top: 50%; left: 0%;  }
+
+	.novel_wrap1>.novel_next2 { position: absolute; top: 50%; right: 0%;}
+
+
+	.novel_wrap1>  span { display: block; font-size: 38px; color:#c9c9c9; line-height:10px; 
+		cursor: pointer; height: 50px; transform: translateY(-50%);  }
+
+		.novel_wrap1> span:hover { color:red;}
+
+
+		.novel_slide2>ul{width:1800px ;}
+
+		.novel_slide2>ul>li{width:120px ; height:226px ;   float: left;margin: 20px 0 0 38px;}
+
+		.novel_slide2>ul>li>p{color: #666; font-size: 10px; font-weight: bold; text-align: center;}
+
+
+
+		.novel_wrap1>.novel_prev3 { position: absolute; top: 50%; left: 0%;  }
+
+		.novel_wrap1>.novel_next3 { position: absolute; top: 50%; right: 0%;}
+
+
+		.novel_wrap1>  span { display: block; font-size: 38px; color:#c9c9c9; line-height:10px; 
+			cursor: pointer; height: 50px; transform: translateY(-50%);  }
+
+			.novel_wrap1> span:hover { color:red;}
+
+
+
+			.novel_slide3>ul{width:1800px ;}
+
+			.novel_slide3>ul>li{width:120px ; height:226px ;   float: left;margin: 20px 0 0 38px;}
+
+			.novel_slide3>ul>li>p{color: #666; font-size: 10px; font-weight: bold; text-align: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*리뷰*/
+
+
+#b_review{width: 1140px; height: 1000px; margin: 0px auto;}
+
+.review_name{width: 1140px; height: 50px;   border-bottom: 1px solid black; display: flex;  justify-content: space-between;}
+
+.line_name1{width: 400px; height: 50px;  display: flex; align-items: center;}
+
+.line_name1>h3{margin: 7px 0 0 15px;}
+
+.line_name1>span{margin: 0 0 0 15px; color: orange; font-size: 20px;}
+
+.line_name1>h2{margin: 0 0 0 15px; font-weight: normal;}
+
+.line_name1>p{margin: 0 0 0 15px; font-weight: bold; font-size: 14px; color: #666666;}
+
+.line_name2{width: 700px; height: 50px;  display: flex; align-items: center; justify-content: flex-end;}
+
+.line_name2>p{color: #ef544d; font-size: 12px; margin: 0px 20px;}
+
+.line_name2>button{background-color: #ef544d; border: none; width: 100px; height: 35px; color: #fff; font-weight: bold;}
+
+.line_name2>button:hover{cursor: pointer;}
+
+.b_line{width: 1140px; height: 30px; border-bottom: 1px solid #efeeed; display: flex; align-items: center; justify-content: flex-end;}
+.b_line>ul{font-size: 14px; color: #666; font-weight: bold;}
+.b_line>ul>li{float: left; margin: 0px 5px;}
+.b_line>ul>li:first-child{color: #333;}
+.b_line>ul>li:hover{cursor: pointer;}
+
+.b_rev1{width: 1140px; height: 160px; margin: 0px auto; position: relative; border-bottom: 1px solid #efeeed; display: flex; flex-wrap: wrap; align-content: center;}
+
+.b_rev1>span{ color: orange; font-size: 22px; margin: 0px 0 30px 10px;}
+
+.b_rev1>h3{display: inline; font-size: 16px; color: #333333; margin: 8px 10px 0 5px;}
+
+.b_rev1>p{font-size: 14px; color:#666666 ; margin: -10px 0px 20px 10px;}
+
+.b_rev1>.user{width: 150px; display: inline; position: absolute; top:35px; right: 0; height: 18px;}
+
+
+.b_rev1>ul{width:1000px; height: 30px;  margin: -10px 0px 0px 10px; font-size: 13px; color:#666666 ; display: flex; align-items: center;}
+
+.b_rev1>ul>li{float: left; margin: 0px 5px;}
+
+.b_rev1>ul>li>img{margin: 7px 0px 0 0px;}
+
+.b_rev1>ul>li>img:hover{cursor: pointer;}
+
+.b_rev1>h4{position: absolute; top: 115px; right:15px; font-size: 12px; color:#666666 ;}
+
+.b_rev1>h4>i{color: #ef544d; margin: 0px 0  0 5px; font-size: 10px;}
+
+.b_rev1>h4>i:hover{cursor: pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+/*기대평*/
+
+#rating{width: 1140px; height: 400px;  position: relative;  margin: 0px 0px 15px 0px;}
+
+#ratebox1{width: 1140px; height: 135px; background-color: #fafafb; border: 1px solid #ccc; margin: 10px auto;}
+
+#ratebox1>ul{width: 100%; height: 30px; font-size: 12px; color:#555555 ;}
+
+#ratebox1>ul>li{float: left;margin: 15px 0 0 10px;}
+#ratebox1>ul>li>input{margin: 1px 2px  ;}
+#ratebox1>ul>li:last-of-type{color: #666666;}
+
+#ratebox1>textarea{width: 940px; height: 60px;position: absolute; top: 87px; left: 15px; font-size: 12px; color: #666666;}
+
+#ratebox1>button{width: 160px; height:60px ;  border: 1px solid #666666; box-shadow: 2px 2px 2px gray; position: absolute; top: 87px; right:15px ;}
+
+#ratebox1>button:hover{cursor: pointer;}
+
+/*기대평 -별점라인*/
+
+
+#ratebox2{width: 1140px; height: 200px; }
+
+.rate1{width: 1140px; height: 40px; border-bottom: 1px solid #efeeed; display: flex; align-items: center;}
+
+.rate1>h1{font-size:15px ; color:#555555 ; display: inline; margin: 0px 10px;}
+
+.rate1>h2{font-size:15px ; color:#555555 ; display: inline;}
+
+.rate1>span{font-size:15px ; color:#555555 ; margin: 0px 10px;}
+
+.rate1>h3{font-size:13px ; width: 90px; color:#555555 ; margin: 0px 10px; font-weight: normal;}
+
+.rate1>h4{font-size:13px ; color:#555555 ; font-weight: normal;}
+
+.rate1:nth-child(4){border-bottom: 1px solid #666;}
+
+
+
+.rate2{width: 100%; height: 40px; background-color: #fafafb; display: flex; justify-content: center;}
+
+.rate2>ul{font-size: 11px; color: #666;}
+
+.rate2>ul>li{float: left; width: 50px; height: 40px; display: flex; align-items: center; justify-content: center;}
+
+.rate2>ul>li:hover{cursor: pointer;}
+
+.rate2>ul>li>i{margin: 0px 3px;}
+
+.rate2>ul>li:nth-child(3){background-color:#555555 ; color: #fff; font-weight: bold; font-size: 13px;}
+
+.rate2>ul>li:nth-child(4){border-right: 1px solid #ccc; font-weight: bold; font-size: 13px;}
+
+.rate2>ul>li:nth-child(5){border-right: 1px solid #ccc; font-weight: bold; font-size: 13px;}
+
+.rate2>ul>li:nth-child(6){border-right: 1px solid #ccc; font-weight: bold; font-size: 13px;}
+
+.rate2>ul>li:nth-child(7){border-right: 1px solid #ccc; font-weight: bold; font-size: 13px;}
+
+.rate2>ul>li:nth-child(8){border-right: 1px solid #ccc; font-weight: bold; font-size: 13px;}
+
+.rate2>ul>li:nth-child(9){border-right: 1px solid #ccc; font-weight: bold; font-size: 13px;}
+
+.rate2>ul>li:nth-child(10){border-right: 1px solid #ccc; font-weight: bold; font-size: 13px;}
+.rate2>ul>li:nth-child(11){border-right: 1px solid #ccc; font-weight: bold; font-size: 13px;}
+
+.rate2>ul>li:nth-child(12){border-right: 1px solid #ccc; font-weight: bold; font-size: 13px;}
+
+
+
+
+
+/*판매자정보*/
+
+.sale_bo{width: 100%; height: 300px; }
+
+.line_name{width: 1140px; height: 30px;  border-bottom: 1px solid black;  display: flex; align-items: center;}
+
+.line_name>h3{margin: 0 0 0 15px;}
+
+
+
+.sale_bo>h4{font-size: 14px; color:#666666 ; margin:10px 0 0 15px;}
+
+.sale_bo table{border: 1px solid #eee;margin: 10px 0 0 15px;width:1110px ; }
+
+.sale_bo table tr {border: 1px solid #eee;}
+
+.sale_bo table tr td:nth-child(1){background-color: #f7f7f7; font-size:12px ; color: #666666; padding: 0 0 0 10px;}
+
+.sale_bo table tr td:nth-child(2){background-color: #fff; font-size:12px ; color: #666666; padding: 0 0 0 10px;}
+
+
+
+/*교환/환불*/
+
+#recall_bo{width: 100%; height: 600px; }
+
+.line_name{width: 1140px; height: 30px;  border-bottom: 1px solid black;  display: flex; align-items: center;}
+
+.line_name>h3{margin: 0 0 0 15px;}
+
+
+#recall_bo table{border: 1px solid #eee;margin: 10px 0 0 15px;width:1110px ; }
+
+#recall_bo table tr td:nth-child(1){background-color: #f7f7f7; font-size:12px ; color: #666666; padding: 0 0 0 10px; }
+
+#recall_bo table tr td:nth-child(2){background-color: #fff; font-size:12px ; color: #666666; padding: 0 0 0 10px; line-height: 25px; }
+
+
+
+#recall_bo>h5{font-size: 12px; color:#666666 ; margin:10px 0 0 15px;}
+
+#recall_bo>p{font-size: 12px; color:#666666 ; margin:10px 0 0 15px;}
+
+#recall_bo>p>span{text-decoration: underline; line-height: 30px;}
+
+#recall_bo>p>span:hover{cursor: pointer;}
+
+
+
+
+
+
+
+
+
+
+
+/*배송안내*/
+
+#delivery_bo{width:1140px ; height: 200px;  margin: 0px auto;}
+
+.line_name{width: 1140px; height: 30px;border-bottom: 1px solid black;  display: flex; align-items: center;}
+
+.line_name>h3{margin: 0 0 0 15px;}
+
+#delivery_bo>.bo_mini{width: 1140px; height: 120px;  }
+
+.bo_mini>ul{font-size: 12px;margin: 5px 0 0 20px; color: #666666;}
+
+.bo_mini>ul>li{float: left; width: 100%;margin: 2px auto;}
+
+.bo_mini>ul>.bo1{list-style: square;}
+
+
+
+
+
+
+
+
+
+
+

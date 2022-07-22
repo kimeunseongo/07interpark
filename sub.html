@@ -1,0 +1,1639 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>인터파크</title>
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+
+	<link href="css/sub.css" rel="stylesheet">
+	<link href="css/common.css" rel="stylesheet">
+	<link href="css/reset.css" rel="stylesheet">
+
+	<script src="js/menu.js"></script>
+	<script src="js/live.js"></script>
+	<script src="js/sub_line3.js"></script>
+
+	<script src="js/sub_line3_ajax.js"></script>
+
+	<script src="js/author_ajax.js"></script>
+	<script src="js/novel_ajax.js"></script>
+	<script src="js/novel_slide.js"></script>
+	
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+
+	<header>
+
+		<div id='headfull'>
+
+
+			<div id='midhfull'>
+
+				<ul class=topmenu>
+
+					<li class='mid1'> 홈</li>
+					<li class='mid2'> 도서 바로가기</li>
+					<li class='mid3'> 티켓</li>
+					<li class='mid4'> 투어</li>
+					<li class='mid5'> 아이마켓</li>
+
+				</ul>
+
+				<ul class=topmenu2>
+
+					<li class='mid6'>로그인</li>
+					<li>ㅣ</li>
+					<li class='mid7'>회원가입</li>
+					<li>ㅣ</li>
+					<li class='mid8'>마이페이지</li>
+					<li>ㅣ</li>
+					<li class='mid9'>고객센터</li>
+					<li>ㅣ</li>
+					<li class='mid10'>모바일APP</li>
+					<li>ㅣ</li>
+					<li class='mid11'>스마트콘<span>off</span></li>
+
+				</ul>
+
+			</div>
+
+		</div>
+
+		<!--헤드미드와 네비는 분리되있음-->
+
+
+		<div id='headmid'>
+
+
+			<!----------------로고----------->
+
+			<div id='logo'>
+
+				<a href="index.html"><img src="img/logo.png"></a>
+			</div>
+
+			<!----------------검색창중간----------->
+
+			<div id='searchmid'>
+
+				<div id='search'>
+
+					<input name="search" placeholder="유퀴즈 화제 도서 <최재천의 공부>" name="search"/> 
+
+					</div>
+
+					<i class='search_btn'><img src='img/btn_search.png'> </i>
+
+					<div id=' search2'>
+
+						<ul class=search_under>
+
+							<li><a href="sub.html"> 걷기의 세계</a></li>
+							<li>ㅣ</li>
+							<li><a href="sub.html"> 초등만점왕</a></li>
+							<li>ㅣ</li>
+							<li><a href="sub.html"> 말의 알고리즘</a></li>
+							<li>ㅣ</li>
+							<li><a href="sub.html"> 멜로가체질</a></li>
+							<li>ㅣ</li>
+							<li><a href="sub.html"> 앤서니브라운</a></li>
+
+						</ul>
+
+					</div>
+
+				</div>
+				<!----------------오른쪽 미니 책 광고----------->
+				<div id='top_ad'>
+
+					<a href="sub.html"><img src="img/adb.png"></a>
+				</div>
+
+			</div>
+
+
+
+			<!--네비 시작-->
+
+
+			<div class="navwrap">
+				<nav>
+					<ul>
+						<li id="nc">
+							<i class="fas fa-bars"></i> 전체 카테고리 
+							<i class="fas fa-angle-down" id="down1"></i>
+							<i class="fas fa-angle-up" id="up1"></i>
+						</li>
+						<li><a href="sub.html">베스트</a></li>
+						<li><a href="sub.html">미디어</a></li>
+						<li><a href="sub.html">신간</a></li>
+						<li><a href="sub.html">이벤트</a></li>
+						<li>　</li>
+						<li><a href="sub.html">국내</a></li>
+						<li><a href="sub.html">외국</a></li>
+						<li><a href="sub.html">eBook</a></li>
+						<li><a href="sub.html">중고</a></li>
+						<li><a href="sub.html">음반</a></li>
+						<li><a href="sub.html">DVD</a></li>
+						<li><a href="sub.html">북DB</a></li>
+					</ul>
+
+
+					<!---------서브메뉴----------->
+					<div class="navslide">
+						<ul>
+							<li><span>국내도서</span> <i class="fas fa-angle-right"></i><img src="img/categorybook.jpg" alt="">
+								<ul>
+									<li><span>소설</span><span>자격서·수험서</span></li>
+									<li><span>장르소설</span><span>공무원·수험서</span></li>
+									<li><span>시·에세이</span><span>컴퓨터·인터넷</span></li>
+									<li><span>경제경영</span><span>전공·대학교재</span></li>
+									<li><span>자기계발</span><span>여행</span></li>
+									<li><span>사회과학</span><span>취미레저</span></li>
+									<li><span>역사·문화</span><span>건강뷰티</span></li>
+									<li><span>예술·대중문화</span><span>잡지</span></li>
+									<li><span>인문</span><span>만화라이트노벨</span></li>
+									<li><span>자연·과학</span><span>유아동전집</span></li>
+									<li><span>종교·역학</span><span class="scolor">예약판매</span></li>
+									<li><span>유아</span><span class="scolor">프리미엄북</span></li>
+									<li><span>아동</span></li>
+									<li><span>가정과생활</span></li>
+									<li><span>청소년</span></li>
+									<li><span>초등학습</span></li>
+									<li><span>중등학습</span></li>
+									<li><span>고등학습</span></li>
+									<li><span>국어·외국어·사전</span></li>
+								</ul>
+							</li>
+							<li><span>외국도서</span> <i class="fas fa-angle-right"></i>
+								<ul>
+									<li><span>어린이</span></li>
+									<li><span>문학</span></li>
+									<li><span>ELT·사전</span></li>
+									<li><span>일본도서</span></li>
+									<li><span>경제·인문</span></li>
+									<li><span>실용·예술</span></li>
+									<li><span>대학·전문서적</span></li>
+									<li><span>컴퓨터</span></li>
+									<li><span>해외잡지</span></li>
+									<li><span>해외주문원서</span></li>
+									<li><span>학습교구/게임</span></li>
+									<li><span class="scolor">예약판매</span></li>
+									<li><span class="scolor">원서vs번역서</span></li>
+								</ul>
+							</li>
+							<li><span>eBook</span> <i class="fas fa-angle-right"></i>
+								<ul>
+									<li><span>소설</span></li>
+									<li><span>장르소설</span></li>
+									<li><span>시·에세이</span></li>
+									<li><span>경제경영</span></li>
+									<li><span>자기계발</span></li>
+									<li><span>인문·역사</span></li>
+									<li><span>예술·종교</span></li>
+									<li><span>자연·사회과학</span></li>
+									<li><span>가정·취미·건강</span></li>
+									<li><span>초중고학습서</span></li>
+									<li><span>어학서·수험서</span></li>
+									<li><span>대학교재</span></li>
+									<li><span>외국도서</span></li>
+									<li><span>만화</span></li>
+									<li><span>어린이·청소년</span></li>
+									<li><span>잡지</span></li>
+									<li><span>성인</span></li>
+									<li><span>북씨</span></li>
+									<li><span class="scolor">새로나온 eBook</span></li>
+									<li><span class="scolor">대여 eBook</span></li>
+								</ul>
+							</li>
+							<li><span>중고</span> <i class="fas fa-angle-right"></i>
+								<ul>
+									<li><span>소설</span></li>
+									<li><span>에세이·시</span></li>
+									<li><span>경제경영</span></li>
+									<li><span>자기계발</span></li>
+									<li><span>사회과학</span></li>
+									<li><span>역사</span></li>
+									<li><span>예술·대중문화</span></li>
+									<li><span>인문</span></li>
+									<li><span>자연과 과학</span></li>
+									<li><span>종교·역학</span></li>
+									<li><span>유아</span></li>
+									<li><span>아동</span></li>
+									<li><span>가정과생활</span></li>
+									<li><span>청소년</span></li>
+									<li><span>초중고학습서</span></li>
+									<li><span>국어·외국어</span></li>
+									<li><span>자격서·수험서</span></li>
+									<li><span>전공·대학교재</span></li>
+									<li><span>외국도서</span></li>
+									<li><span>건강·미용</span></li>
+									<li><span>만화</span></li>
+									<li><span>브랜드전집</span></li>
+									<li><span>중고음반</span></li>
+									<li><span>중고DVD</span></li>
+									<li><span class="scolor">균일가몰</span></li>
+									<li><span class="scolor">판매자 로그인</span></li>
+								</ul>
+							</li>
+							<li><span>음반</span> <i class="fas fa-angle-right"></i>
+								<ul>
+									<li><span>가요</span><span>재즈</span></li>
+									<li><span>팝</span><span>유아·아동·태교</span></li>
+									<li><span>클래식</span><span>뮤직 DVD</span></li>
+									<li><span>국악</span><span>O.S.T</span></li>
+									<li><span>일본음악</span><span>월드뮤직</span></li>
+									<li><span>락</span><span>종교</span></li>
+									<li><span>뉴에이지</span><span class="scolor">예약판매</span></li>
+									<li><span>해외구매</span><span class="scolor">스타샵</span></li>
+									<li><span>수입음반</span><span class="scolor">아티스트파일</span></li>
+									<li><span></span><span class="scolor">LP</span></li>
+								</ul>
+							</li>
+							<li><span>DVD</span> <i class="fas fa-angle-right"></i>
+								<ul>
+									<li><span>블루레이</span><span>TV시리즈</span></li>
+									<li><span>EBS교육용</span><span>해외구매</span></li>
+									<li><span>유아동 DVD</span><span>Blu-ray</span></li>
+									<li><span>영화</span><span>애니메이션</span></li>
+									<li><span>다큐멘터리</span><span>예약판매</span></li>
+									<li><span>건강·취미·스포츠</span></li>
+
+								</ul>
+							</li>
+							<li><span>굿즈#</span> <i class="fas fa-angle-right"></i><img src="img/goods.jpg" alt="">
+								<ul>
+									<li><span>문구/팬시</span></li>
+									<li><span>사무/학용</span></li>
+									<li><span>학습</span></li>
+									<li><span>독서용품</span></li>
+
+
+								</ul>
+							</li>
+						</ul>
+						<span>X</span>
+					</div>
+				</nav>
+			</div>
+
+
+		</header>
+
+
+
+		<!-서브 첫번째 섹션 시작-->
+
+			<div id='sub_section'>
+
+				<div id='top_section'>
+
+
+
+					<div id='sub_topmenu'>
+
+						<ul>
+
+							<li>홈 <i class="fas fa-caret-down"></i></li>
+							<li><i class="fas fa-angle-right"></i></li>
+							<li>국내도서 <i class="fas fa-caret-down"></i></li>
+							<li><i class="fas fa-angle-right"></i></li>
+							<li>소설 <i class="fas fa-caret-down"></i></li>
+							<li><i class="fas fa-angle-right"></i></li>
+							<li>외국소설 <i class="fas fa-caret-down"></i></li>
+							<li><i class="fas fa-angle-right"></i></li>
+							<li>유럽소설 <i class="fas fa-caret-down"></i></li>
+
+						</ul>
+					</div>
+
+
+					<!-----서브 백그라운드 섹션-------->
+
+					<div id='sub_backg'>
+
+						<!------서브 백그라운드 섹션안에 제목----------->
+
+						<div id='sub_name'>
+
+							<div id='sub_name1'>
+
+								<h3>우리와 당신들<span>[반양장]</span></h3>
+
+								<p>원제 : Us Against You </p>
+
+							</div>
+
+							<div id='sub_name2'>
+
+								<span>★★★★★</span>
+								<h3>10</h3>
+								<h3> ㅣ </h3>
+								<img src="img/sub_rev.png"><h4>리뷰</h4>
+
+
+							</div>
+
+						</div>
+
+
+						<!----서브 백그라운드 책소개----------------->
+
+
+
+						<div id='sub_bookbox'>
+
+
+
+							<!----서브 백그라운드 왼쪽박스 우리와당신들 밑에 버튼까지----------------->
+
+
+							<div id='sub_bookimg'>
+
+								<div class='subm'>
+
+									<img src='img/sub_book.jpg'>
+								</div>
+
+								<div id='s_book_btn'>
+
+									<div class='sbook1'><img src="img/sub_btn1.png"></div>
+									<div class='sbook1'><img src="img/sub_btn2.png"></div>
+
+								</div>
+
+								<h4>판매지수<span>599</span></h4>
+								<p>공유하기
+									<img src="img/sub_icon1.png">
+									<img src="img/sub_icon2.png"></p>
+
+
+
+
+
+
+								</div>
+
+
+								<!--서브 오른쪽 박스 저자 및 가격등등박스 -->
+
+								<div id='sub_book'>
+
+									<div id='book_boxname'>
+
+										<ul>
+
+											<li>저 :</li>
+											<li> 프레드릭 배크만</li>
+											<li>ㅣ</li>
+											<li> 역</li>
+											<li>: 이은선</li>
+											<li>ㅣ</li>
+											<li>출판사</li>
+											<li>: 다산책방</li>
+											<li>ㅣ</li>
+											<li>발행 : 2019년 01월 28일</li>
+											<li>ㅣ</li>
+											<li>쪽수 : 620</li>
+											<li>ㅣ</li>
+											<li>ISBN : 9791130620473</li>
+
+										</ul>
+
+									</div>
+
+									<div id='book_table'>
+
+										<table>
+
+											<tr>
+												<th>판매가</th>
+
+												<td>16,800원</td>
+											</tr>
+
+											<tr>
+
+												<td colspan="2">
+													<div class='bubble'>
+
+														<h4>새책</h4>
+														<h3>13,320원 <span>(10%할인)</span></h3>
+														<p>740p<span>(5%적립)</span></p>
+													</div>
+												</td>
+
+											</tr>
+
+											<tr>
+
+												<th>할인혜택</th>
+
+												<td class="saleline">
+													<p>카드/간편결제 할인</p>
+													<i class="fas fa-angle-right"></i>
+													<img src="img/sub_linebar.gif" class='linebar'>
+													<p>무이자 할부</p>
+													<i class="fas fa-angle-right"></i>
+												</td>
+
+											</tr>
+
+
+
+											<tr>
+
+												<th>적립혜택</th>
+
+												<td class='pointline'>
+													<p>840p<span>(5%적립)</span></p>
+													
+													<img src="img/sub_linebar.gif" class='linebar'>
+													<h4>5만원이상 주문시 2천P+등급별 최대 1.5%적립</h4>
+													<i class="fas fa-angle-right"></i>
+												</td>
+
+											</tr>
+
+
+											<tr>
+
+												<th></th>
+
+												<td>
+													<p>	
+														I-Point 적립은 마이페이지에서 직접<span>구매확정</span>하신 경우만 적립 됩니다.</p>
+
+
+													</td>
+
+												</tr>
+
+												<tr>
+													<th>추가혜택</th>
+
+													<td class='plusline'>
+														<img src="img/sub_coupon1.jpg">
+														<img src="img/sub_coupon2.jpg">
+														<img src="img/sub_coupon3.jpg">
+
+
+
+													</td>
+												</tr>
+
+												<tr>
+
+
+													<th colspan="2">
+														<img src="img/sub_coupon4.jpg" class='sub_coupon4'>
+													</th>
+												</tr>
+
+
+												<tr>
+
+													<th>배송정보</th>
+
+													<td class="deliveryline">	
+														7/14(목) 이내 발송 예정  (서울시 강남구 삼성로 512) <img src="img/sub_question.gif"><img src="img/sub_linebar.gif" class='linebar'> <p>무료배송</p><img src="img/sub_question.gif">
+
+													</td>
+
+												</tr>
+
+
+
+
+
+
+												<tr>
+
+													<th>주문수량</th>
+
+													<td class='orderline'>
+
+														<select name="select" id="select" >
+
+															<option>1</option>
+
+															<option>2</option>
+
+															<option>3</option>
+
+															<option>4</option>
+
+															<option>5</option>
+
+														</select>
+
+
+
+													</td>
+
+												</tr>
+
+
+
+												<tr>
+
+													<td colspan="2" class='tb_btn'>
+
+														<div>
+
+															<button>북카트 담기</button>
+
+															<button>바로구매</button>
+
+															<button>♡ 114</button>
+
+														</div>
+
+
+													</td>
+
+												</tr>
+
+
+
+											</table>
+
+										</div>
+
+									</div>
+
+
+
+
+
+
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+
+
+
+					<!---------섹션2번째 큰박스------------------------------->
+
+					<div id='sub_center'>
+
+
+
+						<div id='sub_section2'>
+
+							<!---------섹션2번째 큰박스 책정보 메뉴들------------------------------->
+
+							<div id='sec2menu'>
+
+								<ul>
+									<li><a href='#sec2menu'> 책정보</a></li>
+									<li><a href="#event"> 이벤트/기획전</a></li>
+									<li><a href="#author">추천도서</a></li>
+									<li><a href="#b_review">기대평/리뷰</a></li>
+									<li><a href="#recall_bo">교환/환불/배송</a></li>
+								</ul>
+							</div>
+
+
+							<!-------섹션2번째 이상품의 분류------------>
+
+							<div id='sub_line1'>
+
+								<div class='line_name'><h3>이상품의 분류</h3></div>
+
+								<div class='line_mini2'>
+									
+									<ul>
+										<li>home</li>
+										<li><i class="fas fa-angle-right"></i></li>
+										<li>도서</li>
+										<li><i class="fas fa-angle-right"></i></li>
+										<li>소설</li>
+										<li><i class="fas fa-angle-right"></i></li>
+										<li>외국소설</li>
+										<li><i class="fas fa-angle-right"></i></li>
+										<li>유럽소설</li>
+
+									</ul>
+								</div>
+
+								<div class='line_mini2'>
+									
+									<ul>
+										<li>home</li>
+										<li><i class="fas fa-angle-right"></i></li>
+										<li>도서</li>
+										<li><i class="fas fa-angle-right"></i></li>
+										<li>소설</li>
+										<li><i class="fas fa-angle-right"></i></li>
+										<li>주제가 있는 문학</li>
+										<li><i class="fas fa-angle-right"></i></li>
+										<li>영화/드라마소설</li>
+									</ul>
+								</div>
+
+							</div>
+
+
+							<!-------섹션2번째 라이브북------------>
+
+							<div id='sub_line2'>
+
+								<div class='line_name'><h3>라이브북</h3></div>
+								<span class="prev"><i class="fas fa-less-than"></i>
+								</span>
+								<span class="next"><i class="fas fa-greater-than"></i>
+								</span>
+
+
+								<div class='live'>
+
+
+									<ul>
+										<li><img src="img/livebook1.jpg"></li>
+										<li><img src="img/livebook2.jpg"></li>
+										<li><img src="img/livebook3.jpg"></li>
+										<li><img src="img/livebook4.jpg"></li>
+										<li><img src="img/livebook5.jpg"></li>
+										<li><img src="img/livebook6.jpg"></li>
+										<li><img src="img/livebook7.jpg"></li>
+										<li><img src="img/livebook8.jpg"></li>
+
+
+									</ul>
+
+
+
+								</div>
+
+							</div>
+
+
+
+							<!-------책소개부터 본문중에서(5개목록)------------>
+
+							<div id='sub_line3'>
+
+
+								
+								<!-------책소개 1번째------------>
+
+								<div class='intro_name'><h3>책소개</h3></div>
+
+								<div id='introduce'>
+									
+
+									
+								</div>
+
+
+
+								<div id='intro_hide'>
+
+									
+
+								</div>
+
+
+								<div class="spread">
+									<p class="text_spread1"> 펼쳐보기 <i class="fas fa-chevron-down"></i> </p>
+									<p class="text_spread1"> 접어보기 <i class="fas fa-chevron-up"></i> </p>
+								</div>
+
+
+
+								<!------- 출판사 서평 2번째------------>
+
+								<div class='intro_name'><h3>출판사 서평</h3></div>
+
+								<div id='publisher'>
+									
+									
+
+								</div>
+
+
+								<div id='pub_hide'>
+
+
+
+
+								</div>
+
+
+								<div class="spread">
+									<p class="text_spread2"> 펼쳐보기 <i class="fas fa-chevron-down"></i> </p>
+									<p class="text_spread2"> 접어보기 <i class="fas fa-chevron-up"></i> </p>
+								</div>
+
+
+								<!-------추천사 3번째------------>
+
+								<div class='intro_name'><h3>추천사</h3></div>
+
+								<div id='goodline'>
+
+
+								</div>
+
+								<div id='goodline_hide'>
+
+
+								</div>
+
+								<div class="spread">
+									<p class="text_spread3"> 펼쳐보기 <i class="fas fa-chevron-down"></i> </p>
+									<p class="text_spread3"> 접어보기 <i class="fas fa-chevron-up"></i> </p>
+								</div>
+
+
+
+								<!------- 목차 4번째------------>
+
+								<div class='intro_name'><h3>목차</h3></div>
+
+								<div id='chapter'>	
+									
+
+
+								</div>
+
+
+								<div id='chapter_hide'>
+
+								</div>
+
+
+								<div class="spread">
+									<p class="text_spread4"> 펼쳐보기 <i class="fas fa-chevron-down"></i> </p>
+									<p class="text_spread4"> 접어보기 <i class="fas fa-chevron-up"></i> </p>
+								</div>
+
+
+								<!------- 본문중에서 5번째------------>
+
+								<div class='intro_name'><h3>본문중에서</h3></div>
+
+								<div id='core'>	
+
+
+
+
+
+
+
+								</div>
+
+
+								<div id='core_hide'>
+
+
+
+
+								</div>
+
+
+
+								<div class="spread">
+									<p class="text_spread5"> 펼쳐보기 <i class="fas fa-chevron-down"></i> </p>
+									<p class="text_spread5"> 접어보기 <i class="fas fa-chevron-up"></i> </p>
+								</div>
+
+
+
+							</div>
+
+
+							<!-------------------저자소개-------------------->
+
+
+							<div id='author'>
+
+
+								<div class='line_name'><h3>저자소개</h3></div>
+
+								<div class='author_mini'>
+
+									<div id='a_name'><h4>프레드릭 배크만 [저]</h4><span>신작알림 SMS 신청 <i class="fas fa-chevron-right"></i></span></div>
+
+									<p>저자 프레드릭 배크만(Fredrik Backman)은 30대 중반의 유명 블로거이자 칼럼니스트이다. 데뷔작이자 첫 장편소설인 『오베라는 남자 A man called Ove』는 그의 블로그에서 처음 시작되었다. 수많은 독자들이 ‘오베’라는 캐릭터에 반해 더 써볼 것을 권했고, 그렇게 소설이 탄생했다. 프레드릭 배크만은 2012년 『오베라는 남자』로 성공적인 데뷔를 했다. 이 소설은 출간 즉시 굉장한 인기를 모았고, 인구 9백만의 스웨덴에서 70만 부 이상의 판매를 기록했다. 해외로 판권이 수출되며 독일, 영국, 캐나다, 노르웨이, 덴마크, 아이슬란드, 이스라엘, 남아프리카공화국 등에</p>
+
+								</div>
+
+								<div class='author_book'>
+
+									<div id='a_name'><h4>저자의 다른책</h4><span>전체보기<i class="fas fa-chevron-right"></i></span></div>
+
+									<div class="author_b1">
+										<ul>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+
+										</ul>
+									</div>
+
+
+								</div>
+
+
+
+
+
+								<!-------------------저자소개- 번역자 이은선 역자의 다른책 ------------------->
+
+
+
+
+
+
+								<div class='author_mini'>
+
+									<div id='a_name'><h4>이은선 [역]</h4><span>신작알림 SMS 신청 <i class="fas fa-chevron-right"></i></span></div>
+
+									<p>연세대학교에서 중어중문학을, 국제학대학원에서 동아시아학을 전공했다. 편집자, 저작권 담당자를 거쳐 전문 번역가로 활동 중이다. 옮긴 책으로는 『불타는 소녀들』『디 아더 피플』『애니가 돌아왔다』『초크맨』『불안한 사람들』『일생일대의 거래』『우리와 당신들』『베어타운』 『하루하루가 이별의 날』 『브릿마리 여기 있다』 『할머니가 미안하다고 전해달랬어요』 『위시』 『미스터 메르세데스』 『사라의 열쇠』 『셜록 홈즈:모리어티의 죽음』 『딸에게 보내는 편지』 『11/22/63』 『통역사』 『그대로 두기』 『누들 메이커』 『몬스터』 『리딩 프라미스』 『노 임팩트 맨』 등이 있다.</p>
+
+								</div>
+
+								<div class='author_book'>
+
+									<div id='a_name'><h4>역자의 다른책</h4><span>전체보기<i class="fas fa-chevron-right"></i></span></div>
+
+									<div class="author_b2">
+										<ul>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+
+										</ul>
+									</div>
+
+
+								</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							</div>
+
+
+
+
+
+
+
+
+
+							<!-----------------상품정보제공고시-------------------->
+
+
+							<div id='notice'>
+
+								<div class='line_name'><h3>상품정보제공고시</h3></div>
+
+								<table>
+
+									<tr >
+										<td>저자</td><td class='line_m'>프레드릭 배크만</td><td>기획사/제작사</td><td>다산책방</td>
+
+									</tr>
+
+									<tr>
+										<td>ISBN</td><td>9791130620473</td><td>쪽수</td><td>	620쪽</td>
+
+									</tr>
+
+
+									<tr>
+										<td>크기</td><td>149*217*48</td><td>제품구성</td><td>공급업체 특성상 정보확인이 어려우니, 정확한 정보를 확인하시려면 1:1문의게시판을 이용 바랍니다.</td>
+
+									</tr>
+
+									<tr>
+										<td>발행일(출간일)</td><td>2019년 01월28일</td><td>목차 또는 책소개</td><td>	상품 상세 정보를 확인하시고, 정보확인이 어려우시면 1:1문의 게시판을 이용 바랍니다.</td>
+
+									</tr>
+
+
+
+
+								</table>
+
+
+
+							</div>
+
+
+
+							<!---------------이벤트 기획전------------------>
+
+
+							<div id='event'>
+
+								<div class='line_name'><h3>이벤트 기획전</h3></div>
+
+								<img src="img/event_b.jpg">
+
+
+
+
+							</div>
+
+
+
+
+							<!----------------소설 분야부터 슬라이드-------------------------------->
+
+
+							<div id='novel'>
+
+
+								<!----------------------소설 분야에서 많은 회원이 구매한 책------------------------------------->
+
+								<div class='novel_name1'><i class="fa-solid fa-angles-right"></i><p>소설 분야에서 많은 회원이 구매한 책</p></div>
+
+
+								<div class='novel_wrap1'>
+
+									<div class="novel_slide1">
+										<ul>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+										</ul>
+									</div>
+
+
+									<span class="novel_prev1"><i class="fas fa-less-than"></i>
+									</span>
+									<span class="novel_next1"><i class="fas fa-greater-than"></i>
+									</span>
+
+								</div>
+
+
+								<!----------------------이 책을 조회한 회원들이 같이 본 책------------------------------------->
+
+								<div class='novel_name1'><i class="fa-solid fa-angles-right"></i><p>이 책을 조회한 회원들이 같이 본 책</p></div>
+
+
+								<div class='novel_wrap1'>
+
+									<div class="novel_slide2">
+										<ul>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+										</ul>
+									</div>
+
+
+									<span class="novel_prev2"><i class="fas fa-less-than"></i>
+									</span>
+									<span class="novel_next2"><i class="fas fa-greater-than"></i>
+									</span>
+
+								</div>
+
+
+
+								<!----------------------이 책을 구매한 회원들이 구매한 책------------------------------------->
+
+								<div class='novel_name1'><i class="fa-solid fa-angles-right"></i><p>이 책을 구매한 회원들이 구매한 책</p></div>
+
+
+								<div class='novel_wrap1'>
+
+									<div class="novel_slide3">
+										<ul>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+										</ul>
+									</div>
+
+
+									<span class="novel_prev3"><i class="fas fa-less-than"></i>
+									</span>
+									<span class="novel_next3"><i class="fas fa-greater-than"></i>
+									</span>
+
+								</div>
+
+
+
+
+
+
+
+
+
+
+
+
+							</div>
+
+
+
+							<!--------------리뷰------------------------->
+
+							<div id='b_review'>
+
+								<div class='review_name'>
+
+									<div class='line_name1'><h3>리뷰</h3> <span>★★★★☆</span><h2>9.4</h2><p>(총 89건)</p></div>
+									<div class='line_name2'><p>구매 후 리뷰 작성 시, 북피니언 지수 최대 600점</p> <button>리뷰쓰기</button></div>
+
+								</div>
+
+								<div class='b_line'>
+
+									<ul>
+										<li>최근순</li>
+										<li>ㅣ</li>
+										<li>추천순</li>
+
+									</ul>
+								</div>
+
+								<div class='b_rev1'>
+
+									<span class='star'>★★★★★</span>
+									<h3>우리와당신들 
+									</h3>
+
+									<ul class='user'>
+										<li>sjs***</li>
+										<li>ㅣ</li>
+										<li>2020/03/05</li>
+									</ul>
+
+									<p>우리와 당신들짧은 소설만 읽다 보니... 좀 긴 책을 읽고 싶다 생각했는데아주 따끈따끈한 프레드릭 배크만의 벽돌책이..ㅋ600페이지가 넘어서.... 핑계 조금 보태서 일주일은 넘게 걸린 것 같다.일단 별 다섯 개, 추천하고 시작해야겠다.아이스하키와 작은 숲속 마을(</p>
+
+
+
+									<ul>
+										<li>댓글(0)</li>
+										<li>ㅣ</li>
+										<li>추천(0)</li>
+										<li>ㅣ</li>
+										<li><img src="img/re_btn.png"></li>
+									</ul>
+
+
+									<h4>펼쳐보기<i class="fas fa-chevron-down"></i></h4>
+
+
+								</div>
+
+
+
+								<div class='b_rev1'>
+
+									<span class='star'>★★★★★</span>
+									<h3>우리와 당신들</h3>
+
+									<ul class='user'>
+										<li>sbi***</li>
+										<li>ㅣ</li>
+										<li>2019/11/21
+										</li>
+									</ul>
+
+									<p> <오베라는 남자> 로 국내에서 유명한 프레드릭 배크만 작가님의 <우리와 당신들>은 이전에 <베어타운> 이란 작품의 뒷편입니다. 그래서 꼭 앞 작품을 먼저 읽고나서 보셔야, 전체적인 윤곽이 잡히실거에요. 굉장히 재밌고 감동적으로 본 책입니다. 요즘 들어 나오는 작품 중</p>
+
+
+
+										<ul>
+											<li>댓글(0)</li>
+											<li>ㅣ</li>
+											<li>추천(0)</li>
+											<li>ㅣ</li>
+											<li><img src="img/re_btn.png"></li>
+										</ul>
+
+
+										<h4>펼쳐보기<i class="fas fa-chevron-down"></i></h4>
+
+
+									</div>
+
+
+									<div class='b_rev1'>
+
+										<span class='star'>★★★★☆</span>
+										<h3>우리와 당신들</h3>
+
+										<ul class='user'>
+											<li>bear6*** 
+											</li>
+											<li>ㅣ</li>
+											<li>2019/03/22</li>
+										</ul>
+
+										<p>작가는 결코 친절하지 않다. 특히 프레드릭 베크만이란 작가는 더욱더. 전편 베어타운을 너무나 재미있게 읽어 그 후속편인 이번책은 읽으면서도 책장넘기는 속도가 빨라지면 스스로를 자재시키곤 했다. 아껴읽어야지 맘 먹으면서도 돌아서면 손에 책을 들고있는 스스로</p>
+
+
+
+										<ul>
+											<li>댓글(0)</li>
+											<li>ㅣ</li>
+											<li>추천(0)</li>
+											<li>ㅣ</li>
+											<li><img src="img/re_btn.png"></li>
+										</ul>
+
+
+										<h4>펼쳐보기<i class="fas fa-chevron-down"></i></h4>
+
+
+									</div>
+
+
+									<div class='b_rev1'>
+
+										<span class='star'>★★★★☆</span>
+										<h3>우리와 당신들 - 기대되는 앞날 
+										</h3>
+
+										<ul class='user'>
+											<li>ru***</li>
+											<li>ㅣ</li>
+											<li>2019/03/21</li>
+										</ul>
+
+										<p> <베어 타운> 후속작이 나왔다는 소식에 얼마나 기뻤는지 모른다. 뒤에 이어질 이야기가 궁금했는데 일 년이 되기 전에 알게 되었으니 기쁠 수밖에. 당신은 한 마을이 무너지는 걸 본 적이 있는가. 우리 마을이 그랬다. 이렇게 시작되는 글을 보며 전편에서 일어났던</p>
+
+
+
+											<ul>
+												<li>댓글(0)</li>
+												<li>ㅣ</li>
+												<li>추천(0)</li>
+												<li>ㅣ</li>
+												<li><img src="img/re_btn.png"></li>
+											</ul>
+
+
+											<h4>펼쳐보기<i class="fas fa-chevron-down"></i></h4>
+
+
+										</div>
+
+
+										<div class='b_rev1'>
+
+											<span class='star'>★★★★☆</span>
+											<h3>[우리와 당신들] 베어타운 그 이후의 이야기</h3>
+
+											<ul class='user'>
+												<li>yoll***</li>
+												<li>ㅣ</li>
+												<li>2020/06/24</li>
+											</ul>
+
+											<p>스웨덴의 인기작가 프레드릭 배크만의 [우리와 당신들]은 [베어타운]의 속편이다. 물론 둘 중 한 편만 봐도 별 지장은 없다. 그러나 일단 [베어타운]을 읽고 나면 아이들을 비롯한 등장인물은 물론 마을 자체가 어떻게 될지 무지하게 궁금해지기 때문에 이후의 이야기를</p>
+
+
+
+											<ul>
+												<li>댓글(0)</li>
+												<li>ㅣ</li>
+												<li>추천(0)</li>
+												<li>ㅣ</li>
+												<li><img src="img/re_btn.png"></li>
+											</ul>
+
+
+											<h4>펼쳐보기<i class="fas fa-chevron-down"></i></h4>
+
+
+										</div>
+
+										<div class='rate2'>
+
+											<ul>
+
+												<li><i class="fa-solid fa-angles-left"></i>맨앞</li>
+												<li><i class="fas fa-chevron-left"></i> 이전</li>
+												<li>1</li>
+												<li>2</li>
+												<li>3</li>
+												<li>4</li>
+												<li>5</li>
+												<li>6</li>
+												<li>7</li>
+												<li>8</li>
+												<li>9</li>
+												<li>10</li>
+												<li>다음<i class="fas fa-chevron-right"></i></li>
+												<li>맨뒤<i class="fa-solid fa-angles-right"></i></li>
+
+											</ul>
+										</div>
+
+
+
+
+
+									</div>
+
+
+
+									<!-----------------기대평---------------------->
+
+
+									<div id='rating'>
+
+										<div class='line_name'><h3>기대평</h3></div>
+
+										<div id='ratebox1'>
+
+											<ul>
+
+												<li><input type="radio" checked="checked"></li>
+												<li>기대평</li>
+												<li>ㅣ</li>
+												<li>평점 <span>★★★★☆</span></li>
+											</ul>
+
+											<textarea> 이 책의 기대평(한줄평)을 간단히 남겨주세요.</textarea>
+
+											<button>등록하기</button>
+										</div>
+
+										<div id='ratebox2'>
+
+											<div class='rate1'> <h1>기대평</h1><h2>★★★★☆ 9.7</h2></div>
+
+											<div class='rate1'><span>★★★★☆</span> <h3>heid***</h3><h4>작가와 그의 전작을 좋아한다면</h4></div>
+
+											<div class='rate1'><span>★★★★★</span> <h3>	
+											deaceong***</h3><h4>	
+											너무 굿이에요</h4></div>
+
+											<div class='rate1'><span>★★★★☆</span> <h3>whtn***</h3><h4>	
+											베어타운후속작으로벌써기대돼요~ 프레드릭배크만작품만4권째독식ㅎ~</h4></div>
+
+											<div class='rate2'>
+
+												<ul>
+
+													<li><i class="fa-solid fa-angles-left"></i>맨앞</li>
+													<li><i class="fas fa-chevron-left"></i> 이전</li>
+													<li>1</li>
+													<li>2</li>
+													<li>3</li>
+													<li>4</li>
+													<li>5</li>
+													<li>6</li>
+													<li>7</li>
+													<li>8</li>
+													<li>9</li>
+													<li>10</li>
+													<li>다음<i class="fas fa-chevron-right"></i></li>
+													<li>맨뒤<i class="fa-solid fa-angles-right"></i></li>
+
+												</ul>
+											</div>
+
+										</div>
+
+
+
+									</div>
+
+
+
+
+
+									<!-----------------판매자정보---------------------->
+
+
+									<div class='sale_bo'>
+
+										<div class='line_name'><h3>판매자정보</h3></div>
+
+										<h4>인터파크도서에 등록된 오픈마켓 상품은 그 내용과 책임이 모두 판매자에게 있으며, 인터파크도서는 해당 상품과 내용에 대해 책임지지 않습니다.</h4>
+
+										<table>
+
+
+											<tr>
+												<td class='sale_bo1'>상호</td><td>(주)교보문고</td>
+											</tr>
+
+											<tr>
+												<td class='sale_bo1'>대표자명</td><td>안병현</td>
+											</tr>
+
+											<tr>
+												<td class='sale_bo1'>사업자등록번호</td>
+												<td >102-81-11670</td>
+											</tr>
+
+											<tr>
+												<td class='sale_bo1'>연락처</td><td>1544-1900</td>
+											</tr>
+
+											<tr>
+												<td class='sale_bo1'>전자우편주소</td><td>	
+												callcenter@kyobobook.co.kr</td>
+											</tr>
+
+											<tr>
+												<td class='sale_bo1'>통신판매업신고번호</td><td>01-0653</td>
+											</tr>
+
+											<tr>
+												<td class='sale_bo1'>영업소재지</td><td>서울특별시 종로구 종로 1(종로1가,교보빌딩)</td>
+											</tr>
+
+
+										</table>
+
+									</div>
+
+
+
+									<!-----------------교환/환불---------------------->
+
+
+
+									<div id='recall_bo'>
+
+										<div class='line_name'><h3>교환/환불</h3></div>
+
+
+
+										<table>
+
+
+											<tr>
+												<td class='recall_bo1'>반품/교환 방법</td>
+												<td>‘마이페이지 > 취소/반품/교환/환불’ 에서 신청 또는 1:1 문의 게시판 및 고객센터(1577-2555)에서 신청 가능</td>
+											</tr>
+
+											<tr>
+												<td class='recall_bo1'>반품/교환가능 기간</td>
+												<td>변심 반품의 경우 출고완료 후 6일(영업일 기준) 이내까지만 가능<br>
+												단, 상품의 결함 및 계약내용과 다를 경우 문제점 발견 후 30일 이내</td>
+											</tr>
+
+											<tr>
+												<td class='recall_bo1'>반품/교환 비용</td>
+												<td >변심 혹은 구매착오로 인한 반품/교환은 반송료 고객 부담<br>
+												상품이나 서비스 자체의 하자로 인한 교환/반품은 반송료 판매자 부담</td>
+											</tr>
+
+											<tr>
+												<td class='recall_bo1'>반품/교환 불가 사유</td>
+												<td>·소비자의 책임 있는 사유로 상품 등이 손실 또는 훼손된 경우<br>
+													(단지 확인을 위한 포장 훼손은 제외)<br>
+
+													·소비자의 사용, 포장 개봉에 의해 상품 등의 가치가 현저히 감소한 경우<br>
+													예) 화장품, 식품, 가전제품(악세서리 포함) 등<br>
+
+													·복제가 가능한 상품 등의 포장을 훼손한 경우<br>
+													예) 음반/DVD/비디오, 소프트웨어, 만화책, 잡지, 영상 화보집<br>
+
+													·시간의 경과에 의해 재판매가 곤란한 정도로 가치가 현저히 감소한 경우<br>
+
+												·전자상거래 등에서의 소비자보호에 관한 법률이 정하는 소비자 청약철회 제한 내용에 해당되는 경우</td>
+											</tr>
+
+											<tr>
+
+												<td class='recall_bo1'>상품 품절</td>
+
+												<td>공급사(출판사) 재고 사정에 의해 품절/지연될 수 있음</td>
+											</tr>
+
+											<tr>
+												<td class='recall_bo1'>
+													소비자 피해보상<br>
+												환불지연에 따른 배상</td>
+
+												<td>·상품의 불량에 의한 교환, A/S, 환불, 품질보증 및 피해보상 등에 관한 사항은 소비자분쟁해결 기준 (공정거래위원회 고시)에 준하여 처리됨
+
+												·대금 환불 및 환불지연에 따른 배상금 지급 조건, 절차 등은 전자상거래 등에서의 소비자 보호에 관한 법률에 따라 처리함</td>
+											</tr>
+
+										</table>
+
+
+
+										<h5>(주) 인터파크 안전결제시스템 (에스크로) 안내</h5>
+										<p>(주)인터파크의 모든 상품은 판매자 및 결제 수단의 구분없이 회원님들의 구매안전을 위해 안전결제 시스템을 도입하여 서비스하고 있습니다.
+											<br>결제대금 예치업 등록 : 02-006-00064 <span>서비스 가입사실 확인</span></p>
+
+										</div>
+
+									</div>
+								</div>
+
+
+
+
+								<!-------------------배송안내---------------->
+
+
+								<div id='delivery_bo'>
+
+									<div class='line_name'><h3>배송안내</h3></div>
+
+									<div class='bo_mini'>
+
+										<ul>
+
+											<li class='bo1'>교보문고 상품은 택배로 배송되며, 출고완료 1~2일내 상품을 받아 보실 수 있습니다.</li>
+											<li class='bo1'>출고가능 시간이 서로 다른 상품을 함께 주문할 경우 출고가능 시간이 가장 긴 상품을 기준으로 배송됩니다.</li>
+											<li class='bo1'>군부대, 교도소 등 특정기관은 우체국 택배만 배송가능합니다.</li>
+											<li class='bo1'>배송비는 업체 배송비 정책에 따릅니다.</li>
+											<li>- 도서 구매 시, 1만 원 이상 무료, 1만원 미만 2천 원</li>
+											<li>- 상품별 배송비가 있는 경우, 상품별 배송비 정책 적용</li>
+
+										</ul>
+
+
+									</div>
+
+
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</body>
+
+
+
+
+
+
+
+				<!-------------------푸터---------------->
+
+
+
+
+
+
+				<footer>
+
+
+
+					<div id='footermid'>
+
+						<div id='fmid1'>
+
+							<ul>
+
+								<li class='midfoot'><a href="#">개인정보처리방침</a></li>
+								<li>ㅣ</li>
+								<li><a href="#">청소년보호정책</a></li>
+								<li>ㅣ</li>
+								<li><a href="#">이용약관</a></li>
+								<li>ㅣ</li>
+								<li><a href="#">IR</a></li>
+								<li>ㅣ</li>
+								<li><a href="#">회사소개</a></li>
+								<li>ㅣ</li>
+								<li><a href="#">채용공고</a></li>
+								<li>ㅣ</li>
+								<li><a href="#">우수고객제도</a></li>
+								<li>ㅣ</li>
+								<li><a href="#">수익배분프로그램</a></li>
+								<li>ㅣ</li>
+								<li><a href="#">광고안내</a></li>
+								<li>ㅣ</li>
+								<li><a href="#">담당자안내</a></li>
+								<li>ㅣ</li>
+								<li><a href="#">판매자매니저</a></li>
+								<li></li>
+
+							</ul>
+						</div>
+
+						<div id='fmid2'>
+
+							<div id='fmini1'>
+
+								<h4>주식회사 인터파크</h4>
+
+								<ul>
+									<li>서울특별시 강남구 삼성로 512 삼성동빌딩 10층(삼성동)</li>
+									<li>대표이사 김강세</li>
+									<li>사업자등록번호 824-81-02515 ㅣ 통신판매업신고 2022-서울강남-02179</li>
+
+								</ul>
+
+							</div>
+
+							<div id='fmini2'>
+
+								<h4>고객센터 <img src="img/foot_click.gif"></h4>
+
+								<ul>
+									<li>전화 1577-2555</li>
+									<li>팩스 02-6924-9050</li>
+									<li>개인정보보유기간 : 회원탈퇴시까지</li>
+									<li>개인정보보호책임자 : cpo@interpark.com</li>
+								</ul>
+
+
+
+							</div>
+
+							<div id='fmini3'>
+
+
+								<h4>구매안전 서비스</h4>
+
+								<ul>
+									<li>고객님은 안전거래를 위해 현금으로 5만원 이상 결제시 구매자가 보호를 받을
+									수 있는 구매안전 서비스를(쇼핑몰보증보험) 이용하실수 있습니다.</li>
+									<li><img src="img/foot_click2.gif"></li>
+
+
+								</ul>
+
+							</div>
+
+						</div>
+						<div id='fmid3'>
+
+							<p>인터파크 도서에 등록된 오픈마켓 상품은 그 내용과 책임이 모두 판매자에게 있으며, 인터파크 도서는 해당상품과 내용에 대해 책임지지 않습니다.</p>
+							<span>Copyright ⓒ INTERPARK Corporation All rights reserved.</span>
+
+						</div>
+
+					</div>
+
+				</footer>
+
+
+
+
+
+				</html>
